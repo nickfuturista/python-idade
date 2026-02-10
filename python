@@ -1,0 +1,11 @@
+#algoritimo de idade
+ano = float(input("Digite sua idade"))
+mes = float(input("Digite os seus meses"))
+dia = float(input("Digite os seus dias"))
+
+ano1 = ano * (365)
+mes1 = mes * (30)
+
+resultado = ano1 + mes1 +dia
+
+print(f"Voçê tem {resultado} dias de vida")
